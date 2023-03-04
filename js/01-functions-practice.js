@@ -29,10 +29,8 @@ function findModulus() {
     let y;
     do {
         y = parseInt(prompt("Enter a second number smaller than the first"));
-    } while (y > x);
+    } while (y > Math.abs(x) || y === 0 );
     let modulus = x % y;
     console.log(`${modulus} is the modulus of ${x} and ${y}.`);
 }
 findModulus();
-
-//STEP 5
