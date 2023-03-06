@@ -1,6 +1,6 @@
 // ADD A PRIVATE FUNCTION CALLED CALCULATE
 function calculate(x, y, z, calc) {
-    alert(`${x} ${calc} ${y} = ${z}`)
+    alert(`${x} ${calc} ${y} = ${z}`);
 }
 
 // ADD FOUR PUBLIC FUNCTIONS BELOW

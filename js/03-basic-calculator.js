@@ -13,7 +13,7 @@ do {
 // COLLECT OPERATION TO PERFORM (+,-,*,/) FROM USER
     operation = prompt("What operation do you want to perform? (+, -, * or /)");
 
-} while (operation != "+" && operation != "-" && operation != "*" && operation != "/")
+} while (operation != "+" && operation != "-" && operation != "*" && operation != "/");
 
 // CHECK TO SEE WHAT OPERATION THEY'RE USING
 // CALL THE APPROPRIATE FUNCTION
