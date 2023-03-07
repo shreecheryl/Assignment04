@@ -19,14 +19,14 @@ do {
 // CALL THE APPROPRIATE FUNCTION
 switch (operation) {
     case "+":
-        add(x,y);
+        add(x, y);
         break;
     case "-":
-        subtract(x,y);
+        subtract(x, y);
         break;
     case "*":
-        multiply(x,y);
+        multiply(x, y);
         break;
     default:
-        divide(x,y);
+        divide(x, y);
 }

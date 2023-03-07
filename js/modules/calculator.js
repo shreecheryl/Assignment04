@@ -1,31 +1,19 @@
 // ADD A PRIVATE FUNCTION CALLED CALCULATE
-function calculate(x, y, z, calc) {
-    alert(`${x} ${calc} ${y} = ${z}`);
-}
+const calculate = (x, y, z, calc) => alert(`${x} ${calc} ${y} = ${z}`);
 
 // ADD FOUR PUBLIC FUNCTIONS BELOW
 //////////////////////////////////
 // ADD FUNCTION
-function add(x,y) {
-    let z = x + y;
-    calculate(x,y,z,"+");
-}
+const add = (x, y) => calculate(x, y, x + y, "+");
+
 // SUBTRACT FUNCTION
-function subtract(x,y) {
-    let z = x - y;
-    calculate(x,y,z,"-");
-}
+const subtract = (x, y) => calculate(x, y, x - y, "-");
+
 // MULTIPLY FUNCTION
-function multiply(x,y) {
-    let z = x * y;
-    calculate(x,y,z,"*");
-}
+const multiply = (x, y) => calculate(x, y, x * y, "*");
 
 // DIVIDE FUNCTION
-function divide(x,y) {
-    let z = x / y;
-    calculate(x,y,z,"/");
-}
+const divide = (x, y) => calculate(x, y, x / y, "/");
 
 // EXPORT THE FOUR PUBLIC FUNCTIONS
 export {add, subtract, multiply, divide}
